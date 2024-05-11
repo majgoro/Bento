@@ -11,8 +11,8 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'yo',
-	imageBackground: true,
+	name: '',
+	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: true,
 
@@ -26,7 +26,7 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 
-	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '37.775',
 	defaultLongitude: '-122.419',
 
@@ -134,12 +134,12 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Guides',
+					link: 'https://steamcommunity.com/app/218620/guides/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Concealment Ratings',
+					link: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3235243177',
 				},
 				{
 					name: 'Oldies',
@@ -156,11 +156,11 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Guides',
+					link: 'https://steamcommunity.com/app/218620/guides/',
 				},
 				{
-					name: 'Dribbble',
+					name: '',
 					link: 'https://www.dribbble.com',
 				},
 				{
